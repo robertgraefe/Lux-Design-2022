@@ -122,6 +122,7 @@ class Board:
     factory_occupancy_map: np.ndarray
     factories_per_team: int
     valid_spawns_mask: np.ndarray
+
 @dataclass
 class GameState:
     """
@@ -134,6 +135,7 @@ class GameState:
     units: Dict[str, Dict[str, Unit]] = field(default_factory=dict)
     factories: Dict[str, Dict[str, Factory]] = field(default_factory=dict)
     teams: Dict[str, Team] = field(default_factory=dict)
+
     @property
     def real_env_steps(self):
         """
