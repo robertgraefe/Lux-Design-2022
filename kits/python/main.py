@@ -6,6 +6,11 @@ from argparse import Namespace
 from agent import Agent
 from lux.config import EnvConfig
 from lux.kit import GameState, process_obs, to_json, from_json, process_action, obs_to_game_state
+
+import logging
+
+logging.basicConfig(filename='main.log', encoding='utf-8', level=logging.DEBUG, filemode='w', force=True)
+
 ### DO NOT REMOVE THE FOLLOWING CODE ###
 agent_dict = dict() # store potentially multiple dictionaries as kaggle imports code directly
 agent_prev_obs = dict()
@@ -23,7 +28,7 @@ def agent_fn(observation, configurations):
         env_cfg = EnvConfig.from_dict(configurations["env_cfg"])
         agent_dict[player] = Agent(player, env_cfg)
         agent_prev_obs[player] = dict()
-        agent = agent_dict[player]
+
     agent = agent_dict[player]
     obs = process_obs(player, agent_prev_obs[player], step, json.loads(observation.obs))
     agent_prev_obs[player] = obs
@@ -32,6 +37,8 @@ def agent_fn(observation, configurations):
         actions = agent.early_setup(step, obs, remainingOverageTime)
     else:
         actions = agent.act(step, obs, remainingOverageTime)
+
+    logging.info(actions)
 
     return process_action(actions)
 

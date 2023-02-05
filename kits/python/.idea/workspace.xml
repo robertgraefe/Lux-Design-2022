@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f2e3a9-6e62-4031-830a-5ebf3728f36b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Agent_1/_lux/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Agent_1/_lux/actions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Agent_1/_lux/observation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Agent_1/_lux/player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Agent_1/_lux/unit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Agent_1/map/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Agent_1/map/map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agent_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Agent_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agent_1/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Agent_1/agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agent_1/lux/unit.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Agent_1/lux/unit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agent_1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Agent_1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Agent_1/replay.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Agent_1/replay.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replay.json" beforeDir="false" afterPath="$PROJECT_DIR$/replay.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +44,23 @@
     "last_opened_file_path": "C:/Users/rober/Documents/Workspace/LuxAI-2022/Lux-Design-2022/kits/Agent_1"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="run lux 2023" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="luxai2022 main.py main.py -s 42 -v 2 -o replay.json" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="false" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
